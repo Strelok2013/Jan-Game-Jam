@@ -20,23 +20,32 @@ public class EnemyControl : MonoBehaviour
 {
     public GameManager gameManager;
 
+    public int m_maxHealth = 50;
+    public int m_damagerPerAttack = 10;
+    public int m_pointsWhenDestroyed = 1;
+
     [Header("Attacks In Pattern")]
-    public int minAttacks = 3;
-    public int maxAttacks = 5;
+    public int m_minAttacks = 3;
+    public int m_maxAttacks = 5;
 
     [Header("Time Delays")]
     [Range(0, 10)]
-    public float delayBetweenAttacks = 1;
+    public float m_delayBetweenAttacks = 1;
     [Range(0, 10)]
-    public float delayBetweenPatterns = 3;
+    public float m_delayBetweenPatterns = 3;
 
     private Queue<AttackDir> m_attackPattern = new Queue<AttackDir>();
 
     private Animator animator;
+    private int health;
+
+    public bool OutOfAttacks { get; private set; } = false;
 
     // Start is called before the first frame update
     void Start()
     {
+        health = m_maxHealth;
+
         animator = GetComponent<Animator>();
         CreateAttackPattern();
     }
@@ -49,7 +58,7 @@ public class EnemyControl : MonoBehaviour
 
     public void CreateAttackPattern()
     {
-        int numberOfAttacks = Random.Range(minAttacks, maxAttacks);
+        int numberOfAttacks = Random.Range(m_minAttacks, m_maxAttacks);
 
         Debug.Log("Generating a pattern of " + numberOfAttacks + " attacks");
 
@@ -63,11 +72,13 @@ public class EnemyControl : MonoBehaviour
 
         //Debug.Log("New Attack Pattern:" + m_attackPattern);
 
-        Invoke("PerformAttack", delayBetweenPatterns);
+        Invoke("PerformAttack", m_delayBetweenPatterns);
     }
 
     public void PerformAttack()
     {
+        OutOfAttacks = false;
+
         AttackDir direction = m_attackPattern.Dequeue();
 
         Debug.Log("Enemy attacking in " + direction + " direction");
@@ -76,9 +87,25 @@ public class EnemyControl : MonoBehaviour
         animator.SetInteger("direction", (int)direction);
 
         if (m_attackPattern.Count > 0)
-            Invoke("PerformAttack", delayBetweenAttacks);
+            Invoke("PerformAttack", m_delayBetweenAttacks);
         else
+        {
+            OutOfAttacks = true;
             CreateAttackPattern();
+        }
+    }
+
+    public void TakeDamage(int amount)
+    {
+        health -= amount;
+
+        if(health <= 0)
+        {
+            // increase score
+            gameManager.AddPoints(m_pointsWhenDestroyed);
+
+            GameObject.Destroy(this);
+        }
     }
 
 }

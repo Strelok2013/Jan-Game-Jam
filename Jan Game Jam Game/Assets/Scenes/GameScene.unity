@@ -303,8 +303,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1533289242}
-  - component: {fileID: 1533289241}
   - component: {fileID: 1533289240}
+  - component: {fileID: 1533289241}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -344,6 +344,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 916465636}
+  m_maxHealth: 50
+  m_damagerPerAttack: 10
+  pointsWhenDestroyed: 1
   minAttacks: 3
   maxAttacks: 5
   delayBetweenAttacks: 1

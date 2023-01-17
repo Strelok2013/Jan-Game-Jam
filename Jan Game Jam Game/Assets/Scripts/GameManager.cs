@@ -22,6 +22,11 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void AddPoints(int amount)
+    {
+        Score += amount;
+    }
+
     // Invoked from animation event
     public void CompareAttacks()
     {
