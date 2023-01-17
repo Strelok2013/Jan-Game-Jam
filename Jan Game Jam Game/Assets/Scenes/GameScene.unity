@@ -278,6 +278,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa1ded3dbacc1be46bf8841e4a322263, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_reactionTime: 1
+  m_playerhealth: 3
 --- !u!4 &1209578607
 Transform:
   m_ObjectHideFlags: 0
@@ -320,7 +322,7 @@ Animator:
   m_GameObject: {fileID: 1533289239}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a51cd28ed5b1ab348aa92e0dfdeea8c4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1ba1f2928cb2f5344be9b197c0016903, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -341,10 +343,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 648f95cbdd8536349bcf7743440ad0db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 916465636}
   minAttacks: 3
   maxAttacks: 5
-  delayBetweenAttacks: 3
+  delayBetweenAttacks: 1
+  delayBetweenPatterns: 3
 --- !u!4 &1533289242
 Transform:
   m_ObjectHideFlags: 0

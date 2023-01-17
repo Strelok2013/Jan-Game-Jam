@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
 
     }
 
+    // Invoked from animation event
     public void CompareAttacks()
     {
         if(PlayerAttack == AttackDir.none)
