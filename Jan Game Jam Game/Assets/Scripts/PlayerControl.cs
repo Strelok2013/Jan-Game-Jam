@@ -6,12 +6,15 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour
 {
 
+    public float m_reactionTime = 1.0f;
+    public int m_playerhealth = 3; 
 
     bool m_upDirection;
     bool m_downDirection;
     bool m_leftDirection;
     bool m_rightDirection;
 
+    float m_timer = 0.0f;
     
 
     void Awake()
@@ -157,13 +160,29 @@ public class PlayerControl : MonoBehaviour
 
     void CheckPlayerReaction(bool correct)
     {
-        if(correct)
+        while(m_timer < m_reactionTime)
         {
-
+            m_timer += Time.deltaTime;
+            if(correct)
+            {
+                m_timer = 0.0f; 
+                // Block damage
+                // Add score???
+                break;
+            }
+            else
+            {
+                m_timer = 0.0f;
+                // Take damage
+                m_playerhealth -= 1;
+                break;  
+            }
         }
-        else
+        // Take damage anyway...
+        if(m_timer > m_reactionTime)
         {
-
+            m_playerhealth -= 1;
+            m_timer = 0.0f; 
         }
     }
 }
