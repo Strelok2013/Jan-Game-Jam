@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerControl : MonoBehaviour
 {
+
 
     bool m_upDirection;
     bool m_downDirection;
@@ -18,6 +20,8 @@ public class PlayerControl : MonoBehaviour
         m_downDirection = false;
         m_leftDirection = false;
         m_rightDirection = false;
+
+      
     }
 
     // Start is called before the first frame update
@@ -30,7 +34,6 @@ public class PlayerControl : MonoBehaviour
     void Update()
     {
 
-        EnemyAttack();
 
         if(Input.GetKey(KeyCode.W))
         {
@@ -149,11 +152,8 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
-    public void EnemyAttack()
-    {
-        // Some random shit to pull attacks
-        // 8 different attacks
-    }
+    
+
 
     void CheckPlayerReaction(bool correct)
     {
