@@ -1,0 +1,4440 @@
+fileFormatVersion: 2
+guid: 9ba9fb4029a4fa144a9c3aa168fc7756
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4110246982604111725
+    second: sordAnim_V2_export_Idle_0
+  - first:
+      213: 662999959785402755
+    second: sordAnim_V2_export_Idle_1
+  - first:
+      213: -1297196022791276938
+    second: sordAnim_V2_export_Idle_2
+  - first:
+      213: -8388387794035033104
+    second: sordAnim_V2_export_Idle_3
+  - first:
+      213: -4622498281189980987
+    second: sordAnim_V2_export_Idle_4
+  - first:
+      213: -7712080146973660004
+    second: sordAnim_V2_export_Idle_5
+  - first:
+      213: 4308178138648461904
+    second: sordAnim_V2_export_Idle_6
+  - first:
+      213: -5929655527920526919
+    second: sordAnim_V2_export_Idle_7
+  - first:
+      213: -4959743494205246797
+    second: sordAnim_V2_export_Idle_8
+  - first:
+      213: 8345435705177024656
+    second: sordAnim_V2_export_Idle_9
+  - first:
+      213: 3454445267112328800
+    second: sordAnim_V2_export_Idle_10
+  - first:
+      213: 7483015241734365791
+    second: sordAnim_V2_export_Idle_11
+  - first:
+      213: 6266684521136403638
+    second: sordAnim_V2_export_Idle_12
+  - first:
+      213: -6910076743935319220
+    second: sordAnim_V2_export_Idle_13
+  - first:
+      213: -3446307307181603953
+    second: sordAnim_V2_export_Idle_14
+  - first:
+      213: -4461146661501101868
+    second: sordAnim_V2_export_Idle_15
+  - first:
+      213: -596731683495987955
+    second: sordAnim_V2_export_Idle_16
+  - first:
+      213: 3762578574197199714
+    second: sordAnim_V2_export_Idle_17
+  - first:
+      213: 1199984535485007460
+    second: sordAnim_V2_export_Idle_18
+  - first:
+      213: 8306596274538573027
+    second: sordAnim_V2_export_Idle_19
+  - first:
+      213: -8815327425348297599
+    second: sordAnim_V2_export_Idle_20
+  - first:
+      213: -4746126821081428489
+    second: sordAnim_V2_export_Idle_21
+  - first:
+      213: 3153343385375079413
+    second: sordAnim_V2_export_Idle_22
+  - first:
+      213: -5498289645366771845
+    second: sordAnim_V2_export_Idle_23
+  - first:
+      213: -9185864470278614903
+    second: sordAnim_V2_export_Idle_24
+  - first:
+      213: -5661677024703236553
+    second: sordAnim_V2_export_Idle_25
+  - first:
+      213: 7231016352482311925
+    second: sordAnim_V2_export_Idle_26
+  - first:
+      213: -542487535957266711
+    second: sordAnim_V2_export_Idle_27
+  - first:
+      213: 339740699391643029
+    second: sordAnim_V2_export_Idle_28
+  - first:
+      213: 344892939711380022
+    second: sordAnim_V2_export_Idle_29
+  - first:
+      213: 876335710054665633
+    second: sordAnim_V2_export_Idle_30
+  - first:
+      213: 2985355841375245579
+    second: sordAnim_V2_export_Idle_31
+  - first:
+      213: 5595732968746388935
+    second: sordAnim_V2_export_Idle_32
+  - first:
+      213: 7796362912970842928
+    second: sordAnim_V2_export_Idle_33
+  - first:
+      213: -1563384234212431381
+    second: sordAnim_V2_export_Idle_34
+  - first:
+      213: -5801031302224970675
+    second: sordAnim_V2_export_Idle_35
+  - first:
+      213: 9015648135269683279
+    second: sordAnim_V2_export_Idle_36
+  - first:
+      213: 7261966172010447059
+    second: sordAnim_V2_export_Idle_37
+  - first:
+      213: -8358303647231243997
+    second: sordAnim_V2_export_Idle_38
+  - first:
+      213: 9116374931003861027
+    second: sordAnim_V2_export_Idle_39
+  - first:
+      213: 4222795301784726184
+    second: sordAnim_V2_export_Idle_40
+  - first:
+      213: 4485938458240371793
+    second: sordAnim_V2_export_Idle_41
+  - first:
+      213: 4224524406609572976
+    second: sordAnim_V2_export_Idle_42
+  - first:
+      213: -3657195160431803737
+    second: sordAnim_V2_export_Idle_43
+  - first:
+      213: -8976324907209140466
+    second: sordAnim_V2_export_Idle_44
+  - first:
+      213: 7740604283109160465
+    second: sordAnim_V2_export_Idle_45
+  - first:
+      213: -8070811714493265780
+    second: sordAnim_V2_export_Idle_46
+  - first:
+      213: -1844958780320723448
+    second: sordAnim_V2_export_Idle_47
+  - first:
+      213: -4266868365600140847
+    second: sordAnim_V2_export_Idle_48
+  - first:
+      213: -847889950815316967
+    second: sordAnim_V2_export_Idle_49
+  - first:
+      213: -9014423911968038851
+    second: sordAnim_V2_export_Idle_50
+  - first:
+      213: 497095268437937484
+    second: sordAnim_V2_export_Idle_51
+  - first:
+      213: -4803308416236365029
+    second: sordAnim_V2_export_Idle_52
+  - first:
+      213: -5768085271055727505
+    second: sordAnim_V2_export_Idle_53
+  - first:
+      213: -3122274050694518979
+    second: sordAnim_V2_export_Idle_54
+  - first:
+      213: -1560626883457239012
+    second: sordAnim_V2_export_Idle_55
+  - first:
+      213: 724292427855748594
+    second: sordAnim_V2_export_Idle_56
+  - first:
+      213: 109364718208344768
+    second: sordAnim_V2_export_Idle_57
+  - first:
+      213: -3026882027113993316
+    second: sordAnim_V2_export_Idle_58
+  - first:
+      213: 7698712862249493189
+    second: sordAnim_V2_export_Idle_59
+  - first:
+      213: -6578911571466016280
+    second: sordAnim_V2_export_Idle_60
+  - first:
+      213: -203238173006944013
+    second: sordAnim_V2_export_Idle_61
+  - first:
+      213: -1991603407963337970
+    second: sordAnim_V2_export_Idle_62
+  - first:
+      213: 8805248471568214429
+    second: sordAnim_V2_export_Idle_63
+  - first:
+      213: -7236581981079371604
+    second: sordAnim_V2_export_Idle_64
+  - first:
+      213: -5639888957184188136
+    second: sordAnim_V2_export_Idle_65
+  - first:
+      213: -1939163287207286774
+    second: sordAnim_V2_export_Idle_66
+  - first:
+      213: -7935517685789299549
+    second: sordAnim_V2_export_Idle_67
+  - first:
+      213: -3071113514471319325
+    second: sordAnim_V2_export_Idle_68
+  - first:
+      213: -3243685070872455631
+    second: sordAnim_V2_export_Idle_69
+  - first:
+      213: -5993875624661068008
+    second: sordAnim_V2_export_Idle_70
+  - first:
+      213: 2632364718900378031
+    second: sordAnim_V2_export_Idle_71
+  - first:
+      213: -6950153938415095588
+    second: sordAnim_V2_export_Idle_72
+  - first:
+      213: 4723012643386505983
+    second: sordAnim_V2_export_Idle_73
+  - first:
+      213: 4756871653294559377
+    second: sordAnim_V2_export_Idle_74
+  - first:
+      213: -7264785187712489241
+    second: sordAnim_V2_export_Idle_75
+  - first:
+      213: 5253231275310237480
+    second: sordAnim_V2_export_Idle_76
+  - first:
+      213: -5139065638979336002
+    second: sordAnim_V2_export_Idle_77
+  - first:
+      213: -5023083802227542768
+    second: sordAnim_V2_export_Idle_78
+  - first:
+      213: -1963157758114892659
+    second: sordAnim_V2_export_Idle_79
+  - first:
+      213: -7124786617370560794
+    second: sordAnim_V2_export_Idle_80
+  - first:
+      213: -8469500013554479527
+    second: sordAnim_V2_export_Idle_81
+  - first:
+      213: -8564164898878106264
+    second: sordAnim_V2_export_Idle_82
+  - first:
+      213: -5681299986558847655
+    second: sordAnim_V2_export_Idle_83
+  - first:
+      213: 483719123147634044
+    second: sordAnim_V2_export_Idle_84
+  - first:
+      213: 4891231943533515369
+    second: sordAnim_V2_export_Idle_85
+  - first:
+      213: 1494297754116630520
+    second: sordAnim_V2_export_Idle_86
+  - first:
+      213: -6657118291287753671
+    second: sordAnim_V2_export_Idle_87
+  - first:
+      213: 8222780098825816043
+    second: sordAnim_V2_export_Idle_88
+  - first:
+      213: 357135974250086569
+    second: sordAnim_V2_export_Idle_89
+  - first:
+      213: 222639473139478203
+    second: sordAnim_V2_export_Idle_90
+  - first:
+      213: -239687410352017077
+    second: sordAnim_V2_export_Idle_91
+  - first:
+      213: -5360484242163906050
+    second: sordAnim_V2_export_Idle_92
+  - first:
+      213: -2530447383085208691
+    second: sordAnim_V2_export_Idle_93
+  - first:
+      213: -7457662074291971606
+    second: sordAnim_V2_export_Idle_94
+  - first:
+      213: -6124928175171924630
+    second: sordAnim_V2_export_Idle_95
+  - first:
+      213: 8163542290921335374
+    second: sordAnim_V2_export_Idle_96
+  - first:
+      213: 7745851543816818857
+    second: sordAnim_V2_export_Idle_97
+  - first:
+      213: -450503572367013721
+    second: sordAnim_V2_export_Idle_98
+  - first:
+      213: 5915375463594181397
+    second: sordAnim_V2_export_Idle_99
+  - first:
+      213: -8995374068747018330
+    second: sordAnim_V2_export_Idle_100
+  - first:
+      213: 1934038586687706653
+    second: sordAnim_V2_export_Idle_101
+  - first:
+      213: 1156058102724338017
+    second: sordAnim_V2_export_Idle_102
+  - first:
+      213: -1903887609881435802
+    second: sordAnim_V2_export_Idle_103
+  - first:
+      213: 8796232427026144715
+    second: sordAnim_V2_export_Idle_104
+  - first:
+      213: 5593971205378934519
+    second: sordAnim_V2_export_Idle_105
+  - first:
+      213: -7178040107853838921
+    second: sordAnim_V2_export_Idle_106
+  - first:
+      213: 626861188731068522
+    second: sordAnim_V2_export_Idle_107
+  - first:
+      213: 954922605729027932
+    second: sordAnim_V2_export_Idle_108
+  - first:
+      213: -4044267201653041975
+    second: sordAnim_V2_export_Idle_109
+  - first:
+      213: 4698785547682830223
+    second: sordAnim_V2_export_Idle_110
+  - first:
+      213: 5342372807575952621
+    second: sordAnim_V2_export_Idle_111
+  - first:
+      213: -3773659579480659689
+    second: sordAnim_V2_export_Idle_112
+  - first:
+      213: -1392762139091556804
+    second: sordAnim_V2_export_Idle_113
+  - first:
+      213: 3580815086481721691
+    second: sordAnim_V2_export_Idle_114
+  - first:
+      213: -4543874709268674124
+    second: sordAnim_V2_export_Idle_115
+  - first:
+      213: 1040317166002863719
+    second: sordAnim_V2_export_Idle_116
+  - first:
+      213: -3086584898282582638
+    second: sordAnim_V2_export_Idle_117
+  - first:
+      213: 4842569477504584638
+    second: sordAnim_V2_export_Idle_118
+  - first:
+      213: 680856544002398621
+    second: sordAnim_V2_export_Idle_119
+  - first:
+      213: 4095414123566937534
+    second: sordAnim_V2_export_Idle_120
+  - first:
+      213: -4543596741555640951
+    second: sordAnim_V2_export_Idle_121
+  - first:
+      213: -6092317806179813995
+    second: sordAnim_V2_export_Idle_122
+  - first:
+      213: 1578581819836304277
+    second: sordAnim_V2_export_Idle_123
+  - first:
+      213: -5528711511965049942
+    second: sordAnim_V2_export_Idle_124
+  - first:
+      213: -4783813461127951697
+    second: sordAnim_V2_export_Idle_125
+  - first:
+      213: 2239659183767352484
+    second: sordAnim_V2_export_Idle_126
+  - first:
+      213: 5985235913863565905
+    second: sordAnim_V2_export_Idle_127
+  - first:
+      213: -6502248718563132182
+    second: sordAnim_V2_export_Idle_128
+  - first:
+      213: -8403464004696507020
+    second: sordAnim_V2_export_Idle_129
+  - first:
+      213: -1130072816042418856
+    second: sordAnim_V2_export_Idle_130
+  - first:
+      213: -888137324932714407
+    second: sordAnim_V2_export_Idle_131
+  - first:
+      213: -7076653500879131805
+    second: sordAnim_V2_export_Idle_132
+  - first:
+      213: 8007871167743695503
+    second: sordAnim_V2_export_Idle_133
+  - first:
+      213: -2597144883875742507
+    second: sordAnim_V2_export_Idle_134
+  - first:
+      213: 3017273889263241723
+    second: sordAnim_V2_export_Idle_135
+  - first:
+      213: -5054119984667400508
+    second: sordAnim_V2_export_Idle_136
+  - first:
+      213: -1786805854693263166
+    second: sordAnim_V2_export_Idle_137
+  - first:
+      213: 3471218345135351798
+    second: sordAnim_V2_export_Idle_138
+  - first:
+      213: 286029951747653433
+    second: sordAnim_V2_export_Idle_139
+  - first:
+      213: 669644824427912687
+    second: sordAnim_V2_export_Idle_140
+  - first:
+      213: 8473251776186228960
+    second: sordAnim_V2_export_Idle_141
+  - first:
+      213: -3634275156799924703
+    second: sordAnim_V2_export_Idle_142
+  - first:
+      213: -1896030382501614190
+    second: sordAnim_V2_export_Idle_143
+  - first:
+      213: -2413290251118554437
+    second: sordAnim_V2_export_Idle_144
+  - first:
+      213: 8095177378807761339
+    second: sordAnim_V2_export_Idle_145
+  - first:
+      213: 3122671254921501761
+    second: sordAnim_V2_export_Idle_146
+  - first:
+      213: 7853724292701420730
+    second: sordAnim_V2_export_Idle_147
+  - first:
+      213: 6133860757193949830
+    second: sordAnim_V2_export_Idle_148
+  - first:
+      213: -3472608852813323771
+    second: sordAnim_V2_export_Idle_149
+  - first:
+      213: 150782245685703947
+    second: sordAnim_V2_export_Idle_150
+  - first:
+      213: -1530188341211126028
+    second: sordAnim_V2_export_Idle_151
+  - first:
+      213: 8725057619445727115
+    second: sordAnim_V2_export_Idle_152
+  - first:
+      213: -2040616182704149460
+    second: sordAnim_V2_export_Idle_153
+  - first:
+      213: 4694562964541310342
+    second: sordAnim_V2_export_Idle_154
+  - first:
+      213: 1282451570689146596
+    second: sordAnim_V2_export_Idle_155
+  - first:
+      213: 4737938308206571906
+    second: sordAnim_V2_export_Idle_156
+  - first:
+      213: -5456553640739570662
+    second: sordAnim_V2_export_Idle_157
+  - first:
+      213: 4911248049422609023
+    second: sordAnim_V2_export_Idle_158
+  - first:
+      213: -4649885768055050295
+    second: sordAnim_V2_export_Idle_159
+  - first:
+      213: 4836244556291942944
+    second: sordAnim_V2_export_Idle_160
+  - first:
+      213: 1720303198877590152
+    second: sordAnim_V2_export_Idle_161
+  - first:
+      213: 6704681088821626600
+    second: sordAnim_V2_export_Idle_162
+  - first:
+      213: -7321267172357296140
+    second: sordAnim_V2_export_Idle_163
+  - first:
+      213: -223193310489681678
+    second: sordAnim_V2_export_Idle_164
+  - first:
+      213: -3352372681996784302
+    second: sordAnim_V2_export_Idle_165
+  - first:
+      213: -6253498131603281877
+    second: sordAnim_V2_export_Idle_166
+  - first:
+      213: -2282243808962982176
+    second: sordAnim_V2_export_Idle_167
+  - first:
+      213: -8126397073034173699
+    second: sordAnim_V2_export_Idle_168
+  - first:
+      213: 6232775575236596534
+    second: sordAnim_V2_export_Idle_169
+  - first:
+      213: 84058094493376047
+    second: sordAnim_V2_export_Idle_170
+  - first:
+      213: -2738017963712221320
+    second: sordAnim_V2_export_Idle_171
+  - first:
+      213: 5257536889506038300
+    second: sordAnim_V2_export_Idle_172
+  - first:
+      213: 3187252209685831753
+    second: sordAnim_V2_export_Idle_173
+  - first:
+      213: -2858262359686321582
+    second: sordAnim_V2_export_Idle_174
+  - first:
+      213: 8223476236087893414
+    second: sordAnim_V2_export_Idle_175
+  - first:
+      213: -205431757488422109
+    second: sordAnim_V2_export_Idle_176
+  - first:
+      213: -2749969825714838488
+    second: sordAnim_V2_export_Idle_177
+  - first:
+      213: -1311274197990052567
+    second: sordAnim_V2_export_Idle_178
+  - first:
+      213: 126057610101013596
+    second: sordAnim_V2_export_Idle_179
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11264
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f3d398ad78a0930800000000000000
+      internalID: 4110246982604111725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 11264
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3817b1163f2733900800000000000000
+      internalID: 662999959785402755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 11264
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676f971171f6ffde0800000000000000
+      internalID: -1297196022791276938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 11264
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbb152beb5769b80800000000000000
+      internalID: -8388387794035033104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11008
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c441d6ed4699dfb0800000000000000
+      internalID: -4622498281189980987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 11008
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cea4877ff29f490800000000000000
+      internalID: -7712080146973660004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 11008
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052ce3ff039b9cb30800000000000000
+      internalID: 4308178138648461904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 11008
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b99dd9c6b1a5bda0800000000000000
+      internalID: -5929655527920526919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10752
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b277d2e1937b2bb0800000000000000
+      internalID: -4959743494205246797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 10752
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09820fece81f0d370800000000000000
+      internalID: 8345435705177024656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 10752
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e72420ba7a0ff20800000000000000
+      internalID: 3454445267112328800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 10752
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52296437b209d760800000000000000
+      internalID: 7483015241734365791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10496
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b436c1ae5cb7f650800000000000000
+      internalID: 6266684521136403638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 10496
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c432c0300d97a10a0800000000000000
+      internalID: -6910076743935319220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 10496
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f838b9073c14c20d0800000000000000
+      internalID: -3446307307181603953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 10496
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d89e4e5fb2d612c0800000000000000
+      internalID: -4461146661501101868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05300b02bbf7b7f0800000000000000
+      internalID: -596731683495987955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 10240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263158a374d573430800000000000000
+      internalID: 3762578574197199714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 10240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466cb85c39337a010800000000000000
+      internalID: 1199984535485007460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 10240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec647c2d45f64370800000000000000
+      internalID: 8306596274538573027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9984
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c1b59896aa9a580800000000000000
+      internalID: -8815327425348297599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 9984
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdcc726dce522eb0800000000000000
+      internalID: -4746126821081428489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 9984
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbfb141a1de2cb20800000000000000
+      internalID: 3153343385375079413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 9984
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f74bfd2b622b3b0800000000000000
+      internalID: -5498289645366771845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9728
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980592edee0458080800000000000000
+      internalID: -9185864470278614903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 9728
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736b29d2ebead61b0800000000000000
+      internalID: -5661677024703236553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 9728
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5febfbe9f0bb95460800000000000000
+      internalID: 7231016352482311925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 9728
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eea034d572b878f0800000000000000
+      internalID: -542487535957266711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9472
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d4bf6bd5007b400800000000000000
+      internalID: 339740699391643029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 9472
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a79052d4e49c400800000000000000
+      internalID: 344892939711380022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 9472
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad4ccd6fae592c00800000000000000
+      internalID: 876335710054665633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 9472
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b051f45125d1e6920800000000000000
+      internalID: 2985355841375245579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9216
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd0214dc7908ad40800000000000000
+      internalID: 5595732968746388935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 9216
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03328af23ce323c60800000000000000
+      internalID: 7796362912970842928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 9216
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be96258725ebd4ae0800000000000000
+      internalID: -1563384234212431381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 9216
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c75fb04c89e7fa0800000000000000
+      internalID: -5801031302224970675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8960
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4099aa46340e1d70800000000000000
+      internalID: 9015648135269683279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 8960
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0069502cfa7c460800000000000000
+      internalID: 7261966172010447059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 8960
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3290ee5fd17510c80800000000000000
+      internalID: -8358303647231243997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 8960
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328e2c9f2bed38e70800000000000000
+      internalID: 9116374931003861027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8704
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa211224f16a9a30800000000000000
+      internalID: 4222795301784726184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 8704
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c4eaf9241414e30800000000000000
+      internalID: 4485938458240371793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_42
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 8704
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0747ee8b09680aa30800000000000000
+      internalID: 4224524406609572976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_43
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 8704
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a24f24d0680f3dc0800000000000000
+      internalID: -3657195160431803737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8448
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07de453e00bd6380800000000000000
+      internalID: -8976324907209140466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 8448
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116b69185962c6b60800000000000000
+      internalID: 7740604283109160465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 8448
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c884194b187beff80800000000000000
+      internalID: -8070811714493265780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_47
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 8448
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80eceb9a3c36566e0800000000000000
+      internalID: -1844958780320723448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8192
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d15d0d04d909c4c0800000000000000
+      internalID: -4266868365600140847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 8192
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91497010590bb34f0800000000000000
+      internalID: -847889950815316967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_50
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 8192
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30ab58663556e280800000000000000
+      internalID: -9014423911968038851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 8192
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d45ce438906e600800000000000000
+      internalID: 497095268437937484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b5697c178375db0800000000000000
+      internalID: -4803308416236365029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f648f80b105a3ffa0800000000000000
+      internalID: -5768085271055727505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_54
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37eeec1b447ba4d0800000000000000
+      internalID: -3122274050694518979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_55
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 7936
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c183b983e1a875ae0800000000000000
+      internalID: -1560626883457239012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdd8db20243d0a00800000000000000
+      internalID: 724292427855748594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_57
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2e4cbb1aa848100800000000000000
+      internalID: 109364718208344768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_58
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b2bdc55da5ef5d0800000000000000
+      internalID: -3026882027113993316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_59
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 7680
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2ac160f8257da60800000000000000
+      internalID: 7698712862249493189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9af0648c203b4a0800000000000000
+      internalID: -6578911571466016280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_61
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f82f1d55f3fd2df0800000000000000
+      internalID: -203238173006944013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_62
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b43ee90476c54e0800000000000000
+      internalID: -1991603407963337970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_63
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 7424
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99efda25d6823a70800000000000000
+      internalID: 8805248471568214429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca085cd770f729b90800000000000000
+      internalID: -7236581981079371604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_65
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8116366ffd61bb1b0800000000000000
+      internalID: -5639888957184188136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_66
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08e780b345b615e0800000000000000
+      internalID: -1939163287207286774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_67
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 7168
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ace2bd75b06fd190800000000000000
+      internalID: -7935517685789299549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e81901b7863165d0800000000000000
+      internalID: -3071113514471319325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_69
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136d8632d9d1cf2d0800000000000000
+      internalID: -3243685070872455631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_70
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817543450e971dca0800000000000000
+      internalID: -5993875624661068008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_71
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 6912
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9f355d3c9088420800000000000000
+      internalID: 2632364718900378031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd07c7601d71c8f90800000000000000
+      internalID: -6950153938415095588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa3bbeb9f28b8140800000000000000
+      internalID: 4723012643386505983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_74
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1905fb0d09dc30240800000000000000
+      internalID: 4756871653294559377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_75
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 6656
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8a0ecbc5c4e2b90800000000000000
+      internalID: -7264785187712489241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827c6d7130a37e840800000000000000
+      internalID: 5253231275310237480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8883f770f5ea8b0800000000000000
+      internalID: -5139065638979336002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015753335eb6a4ab0800000000000000
+      internalID: -5023083802227542768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_79
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 6400
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8472859b6671c4e0800000000000000
+      internalID: -1963157758114892659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6bb2bf15caf1d90800000000000000
+      internalID: -7124786617370560794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_81
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e4bea6c9a467a80800000000000000
+      internalID: -8469500013554479527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_82
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865508c3669f52980800000000000000
+      internalID: -8564164898878106264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_83
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 6144
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9557ab653c7f721b0800000000000000
+      internalID: -5681299986558847655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75374acaf386b600800000000000000
+      internalID: 483719123147634044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_85
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962db5ca98521e340800000000000000
+      internalID: 4891231943533515369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f729c6e3efccb410800000000000000
+      internalID: 1494297754116630520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_87
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 5888
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cb90c5f2a2d93a0800000000000000
+      internalID: -6657118291287753671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5632
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be70aa80fee2d1270800000000000000
+      internalID: 8222780098825816043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_89
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5632
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a080b1c64dc4f400800000000000000
+      internalID: 357135974250086569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_90
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5632
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe6575db69f61300800000000000000
+      internalID: 222639473139478203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_91
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 5632
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41b5d8f1957cacf0800000000000000
+      internalID: -239687410352017077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9cdb99bfbbb95b0800000000000000
+      internalID: -5360484242163906050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_93
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ba360138b02ecd0800000000000000
+      internalID: -2530447383085208691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_94
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae99ce61bdf018890800000000000000
+      internalID: -7457662074291971606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_95
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 5376
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d8814a642effaa0800000000000000
+      internalID: -6124928175171924630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4aae37167aba4170800000000000000
+      internalID: 8163542290921335374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_97
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0dc1890face7b60800000000000000
+      internalID: 7745851543816818857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_98
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a80507436d7fb9f0800000000000000
+      internalID: -450503572367013721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_99
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 5120
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513c794a4a2a71250800000000000000
+      internalID: 5915375463594181397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afd29aa1f20a2380800000000000000
+      internalID: -8995374068747018330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_101
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d165b6df8d517da10800000000000000
+      internalID: 1934038586687706653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_102
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161a89828b42b0010800000000000000
+      internalID: 1156058102724338017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_103
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 4864
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661efb85e480495e0800000000000000
+      internalID: -1903887609881435802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd5aa6b9ce721a70800000000000000
+      internalID: 8796232427026144715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_105
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f600645c27c1ad40800000000000000
+      internalID: 5593971205378934519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_106
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b58dd38d8a726c90800000000000000
+      internalID: -7178040107853838921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_107
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 4608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a606bcd0eee03b800800000000000000
+      internalID: 626861188731068522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4352
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57187eec01904d00800000000000000
+      internalID: 954922605729027932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_109
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4352
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c415b45860efd7c0800000000000000
+      internalID: -4044267201653041975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_110
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4352
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87df557f80753140800000000000000
+      internalID: 4698785547682830223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 4352
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec554d63cbe32a40800000000000000
+      internalID: 5342372807575952621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4096
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7192ecd2b9441abc0800000000000000
+      internalID: -3773659579480659689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_113
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4096
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36a5d2b63aebace0800000000000000
+      internalID: -1392762139091556804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_114
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4096
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b594a14695c91b130800000000000000
+      internalID: 3580815086481721691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_115
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 4096
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9c822c60ae0f0c0800000000000000
+      internalID: -4543874709268674124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e775d53f2ff6e00800000000000000
+      internalID: 1040317166002863719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_117
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d08c0736f3a25d0800000000000000
+      internalID: -3086584898282582638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_118
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb4fc26843443340800000000000000
+      internalID: 4842569477504584638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_119
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9953406b63e27900800000000000000
+      internalID: 680856544002398621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5335b6275d5d830800000000000000
+      internalID: 4095414123566937534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_121
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98524f826d6e1f0c0800000000000000
+      internalID: -4543596741555640951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_122
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5957dd7db3db37ba0800000000000000
+      internalID: -6092317806179813995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_123
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b8b3c2dcf38e510800000000000000
+      internalID: 1578581819836304277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabd5b71c221643b0800000000000000
+      internalID: -5528711511965049942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_125
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa8cb9b00b7c9db0800000000000000
+      internalID: -4783813461127951697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_126
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4f462592ed41f10800000000000000
+      internalID: 2239659183767352484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_127
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1529fbe3a54df0350800000000000000
+      internalID: 5985235913863565905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec3ec8ad3f53c5a0800000000000000
+      internalID: -6502248718563132182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_129
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d784dd206e06b80800000000000000
+      internalID: -8403464004696507020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_130
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d577dd2cc2150f0800000000000000
+      internalID: -1130072816042418856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_131
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950be9bfec3bca3f0800000000000000
+      internalID: -888137324932714407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b2399722daacd90800000000000000
+      internalID: -7076653500879131805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_133
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a9478466ca12f60800000000000000
+      internalID: 8007871167743695503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_134
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcfc560d7615fbd0800000000000000
+      internalID: -2597144883875742507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_135
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9c897bd928fd920800000000000000
+      internalID: 3017273889263241723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c662bdd6a82cd9b0800000000000000
+      internalID: -5054119984667400508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c87b64ca8df337e0800000000000000
+      internalID: -1786805854693263166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_138
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7ac9f81be3c2030800000000000000
+      internalID: 3471218345135351798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_139
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f7a05c9be28f300800000000000000
+      internalID: 286029951747653433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed54bd7b6e0b4900800000000000000
+      internalID: 669644824427912687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_141
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e02704e899079570800000000000000
+      internalID: 8473251776186228960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_142
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126d9e60006709dc0800000000000000
+      internalID: -3634275156799924703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_143
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29da4a7a962ffa5e0800000000000000
+      internalID: -1896030382501614190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb25a228d45428ed0800000000000000
+      internalID: -2413290251118554437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_145
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb94d999fe8d75070800000000000000
+      internalID: 8095177378807761339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_146
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c5be336f4f55b20800000000000000
+      internalID: 3122671254921501761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_147
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcf25622a80efc60800000000000000
+      internalID: 7853724292701420730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682014e2cd9df1550800000000000000
+      internalID: 6133860757193949830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_149
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5026f24a5a0decfc0800000000000000
+      internalID: -3472608852813323771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_150
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05388057afa71200800000000000000
+      internalID: 150782245685703947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_151
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6aaaa9fcda3cae0800000000000000
+      internalID: -1530188341211126028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fb0e37da1a51970800000000000000
+      internalID: 8725057619445727115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_153
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c610bb4664ea3e0800000000000000
+      internalID: -2040616182704149460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_154
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6858035b420762140800000000000000
+      internalID: 4694562964541310342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_155
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee7198a8ee2cc110800000000000000
+      internalID: 1282451570689146596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2813e54e9c980c140800000000000000
+      internalID: 4737938308206571906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_157
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c7ad1bf5d6644b0800000000000000
+      internalID: -5456553640739570662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_158
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a2aad7412482440800000000000000
+      internalID: 4911248049422609023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_159
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf2fe4b789487fb0800000000000000
+      internalID: -4649885768055050295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02aa2b8eccacd1340800000000000000
+      internalID: 4836244556291942944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_161
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882211315aebfd710800000000000000
+      internalID: 1720303198877590152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_162
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e60e776defcb0d50800000000000000
+      internalID: 6704681088821626600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_163
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff2ae5eb42a56a90800000000000000
+      internalID: -7321267172357296140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_164
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0e40cddde07ecf0800000000000000
+      internalID: -223193310489681678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_165
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dabdeaecaf971d0800000000000000
+      internalID: -3352372681996784302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_166
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28a73ee49c1739a0800000000000000
+      internalID: -6253498131603281877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_167
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee4debf857d350e0800000000000000
+      internalID: -2282243808962982176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df22606eaec393f80800000000000000
+      internalID: -8126397073034173699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_169
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63355beec544f7650800000000000000
+      internalID: 6232775575236596534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_170
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e16ce3462aa2100800000000000000
+      internalID: 84058094493376047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_171
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f6b4c2b2b900ad0800000000000000
+      internalID: -2738017963712221320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12058402f586f840800000000000000
+      internalID: 5257536889506038300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_173
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94027e77ff46b3c20800000000000000
+      internalID: 3187252209685831753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_174
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ae60017896558d0800000000000000
+      internalID: -2858262359686321582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_175
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad92ee1118af1270800000000000000
+      internalID: 8223476236087893414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323815da7e8262df0800000000000000
+      internalID: -205431757488422109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_177
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8246933730526d9d0800000000000000
+      internalID: -2749969825714838488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_178
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92deaa9701b6dcde0800000000000000
+      internalID: -1311274197990052567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sordAnim_V2_export_Idle_179
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c3e4f7ab8dfb100800000000000000
+      internalID: 126057610101013596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
