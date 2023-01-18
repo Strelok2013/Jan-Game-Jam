@@ -15,10 +15,14 @@ public class GameManager : MonoBehaviour
     // references
     public PlayerControlTest player;
     public EnemyControl enemy;
+    public UIManager m_UIManagerRef;
 
     public TextMeshProUGUI scoreText;
 
     public int parryPoints = 5;
+
+    float m_timer = 0.0f;
+    public float m_reactionTime = 1.0f;
 
     // properties
     //public AttackDir PlayerAttack { get; set; } = AttackDir.none;
@@ -58,15 +62,29 @@ public class GameManager : MonoBehaviour
     public void CompareAttacks()
     {
         // checks if attacks are opposites
-        if(player.AttackDirection == -enemy.AttackDirection)
+        while(m_timer < m_reactionTime)
         {
-            // successful parry                    
-            Debug.Log("You successfully parried the attack");
-            AddPoints(parryPoints);
+            m_UIManagerRef.CheckForInputs(player.AttackDirection, enemy.AttackDirection);
+            m_timer += Time.deltaTime;
+            if(player.AttackDirection == -enemy.AttackDirection)
+            {
+                // successful parry                    
+                Debug.Log("You successfully parried the attack");
+                AddPoints(parryPoints);
+                m_timer = 0.0f;
+                break;
+            }
+            else
+            {
+                DamagePlayer();
+                m_timer = 0.0f;
+                break;
+            }
         }
-        else
+        if(m_timer > m_reactionTime)
         {
             DamagePlayer();
+            m_timer = 0.0f;
         }
 
     }

@@ -8,6 +8,8 @@ public class UIManager : MonoBehaviour
     SpriteRenderer[] m_incomingButtons = new SpriteRenderer[8];
     SpriteRenderer[] m_activeButtons = new SpriteRenderer[8];
 
+    public PlayerControlTest m_playerRef;
+
     private void Awake()
     {
 
@@ -41,12 +43,150 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //if(m_playerRef.)
     }
 
 
-    public void SetSprite(AttackDir dir)
+    public void CheckForInputs(Vector2 playerAttack, Vector2 enemyAttack)
     {
-        // DO a thingy
+        //Temp vecs??
+        Vector2 upLeft = new Vector2(-1,1);
+        Vector2 upRight = new Vector2(1, 1);
+        Vector2 downLeft = new Vector2(-1, -1);
+        Vector2 downRight = new Vector2(1, -1);
+
+
+        // Player input
+        if(playerAttack == Vector2.up)
+        {
+            m_activeButtons[1].enabled = true;
+        }
+        else
+        {
+            m_activeButtons[1].enabled = false;
+        }
+        if (playerAttack == upLeft)
+        {
+            m_activeButtons[0].enabled = true;
+        }
+        else
+        {
+            m_activeButtons[0].enabled = false;
+        }
+        if(playerAttack == upRight)
+        {
+            m_activeButtons[2].enabled = true;
+        }
+        else
+        {
+            m_activeButtons[2].enabled = false;
+        }
+        if (playerAttack == Vector2.left)
+        {
+            m_activeButtons[3].enabled = true;
+        }
+        else
+        {
+            m_activeButtons[3].enabled = false;
+        }
+        if (playerAttack == Vector2.down)
+        {
+            m_activeButtons[6].enabled = true;
+        }
+        else
+        {
+            m_activeButtons[6].enabled = false;
+        }
+        if (playerAttack == downLeft)
+        {
+            m_activeButtons[5].enabled = true;
+        }
+        else
+        {
+            m_activeButtons[5].enabled = false;
+        }
+        if (playerAttack == downRight)
+        {
+            m_activeButtons[7].enabled = true;
+        }
+        else
+        {
+            m_activeButtons[7].enabled = false;
+        }
+        if (playerAttack == Vector2.right)
+        {
+            m_activeButtons[4].enabled = true;
+        }
+        else
+        {
+            m_activeButtons[4].enabled = false;
+        }
+
+        // Enemy Input
+        if (enemyAttack == Vector2.up)
+        {
+            m_incomingButtons[6].enabled = true;
+        }
+        else
+        {
+            m_incomingButtons[6].enabled = false;
+        }
+        if(enemyAttack == upLeft)
+        {
+            m_incomingButtons[7].enabled = true;
+        }
+        else
+        {
+            m_incomingButtons[6].enabled = false;
+        }
+        if (enemyAttack == upRight)
+        {
+            m_incomingButtons[5].enabled = true;
+        }
+        else
+        {
+            m_incomingButtons[6].enabled = false;
+        }
+        if (enemyAttack == Vector2.left)
+        {
+            m_incomingButtons[4].enabled = true;
+        }
+        else
+        {
+            m_incomingButtons[6].enabled = false;
+        }
+        if (enemyAttack == Vector2.down)
+        {
+            m_incomingButtons[1].enabled = true;
+        }
+        else
+        {
+            m_incomingButtons[6].enabled = false;
+        }
+        if (enemyAttack == downLeft)
+        {
+            m_incomingButtons[2].enabled = true;
+        }
+        else
+        {
+            m_incomingButtons[6].enabled = false;
+        }
+        if (enemyAttack == downRight)
+        {
+            m_incomingButtons[0].enabled = true;
+        }
+        else
+        {
+            m_incomingButtons[6].enabled = false;
+        }
+        if (enemyAttack == Vector2.right)
+        {
+            m_incomingButtons[3].enabled = true;
+        }
+        else
+        {
+            m_incomingButtons[6].enabled = false;
+        }
     }
+
 }

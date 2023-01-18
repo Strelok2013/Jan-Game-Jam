@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerControlTest : MonoBehaviour
 {
-    public GameManager gameManager;
     public float m_playerhealth;
 
     float vInput, hInput;    
