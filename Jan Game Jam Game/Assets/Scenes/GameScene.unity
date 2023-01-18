@@ -235,8 +235,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427058026b3b5654da986340d3a04320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1209578606}
+  player: {fileID: 1209578608}
   enemy: {fileID: 1533289241}
+  scoreText: {fileID: 0}
+  parryPoints: 5
 --- !u!4 &916465637
 Transform:
   m_ObjectHideFlags: 0
@@ -259,8 +261,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1209578607}
+  - component: {fileID: 1209578609}
   - component: {fileID: 1209578606}
+  - component: {fileID: 1209578608}
+  - component: {fileID: 1209578607}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -275,15 +279,37 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209578605}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa1ded3dbacc1be46bf8841e4a322263, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_reactionTime: 1
-  m_playerhealth: 3
---- !u!4 &1209578607
-Transform:
+  m_playerhealth: 30
+--- !u!222 &1209578607
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209578605}
+  m_CullTransparentMesh: 1
+--- !u!114 &1209578608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209578605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbc947749caaea4a8c5b6108e983eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 916465636}
+  m_playerhealth: 30
+--- !u!224 &1209578609
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -296,6 +322,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1533289239
 GameObject:
   m_ObjectHideFlags: 0

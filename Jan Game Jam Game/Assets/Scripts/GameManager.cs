@@ -1,16 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+
+public enum GameState
+{
+    running,
+    win, 
+    lose
+}
 
 public class GameManager : MonoBehaviour
 {
     // references
-    public PlayerControl player;
+    public PlayerControlTest player;
     public EnemyControl enemy;
 
+    public TextMeshProUGUI scoreText;
+
+    public int parryPoints = 5;
+
     // properties
-    public AttackDir PlayerAttack { get; set; } = AttackDir.none;
-    public AttackDir EnemyAttack { get; set; } = AttackDir.none;
+    //public AttackDir PlayerAttack { get; set; } = AttackDir.none;
+    //public AttackDir EnemyAttack { get; set; } = AttackDir.none;
 
     public int Score { get; private set; } = 0;
 
@@ -19,7 +31,10 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        if (scoreText)
+            scoreText.text = Score.ToString();
+        else
+            Debug.Log("Score " + Score);
     }
 
     // Update is called once per frame
@@ -32,45 +47,26 @@ public class GameManager : MonoBehaviour
     public void AddPoints(int amount)
     {
         Score += amount;
+
+        if (scoreText)
+            scoreText.text = Score.ToString();
+        else
+            Debug.Log("Score " + Score);
     }
 
     // Invoked from animation event
     public void CompareAttacks()
     {
-        if(PlayerAttack == AttackDir.none)
+        // checks if attacks are opposites
+        if(player.AttackDirection == -enemy.AttackDirection)
         {
-            DamagePlayer();
+            // successful parry                    
+            Debug.Log("You successfully parried the attack");
+            AddPoints(parryPoints);
         }
         else
         {
-            int enemyDirection = (int)EnemyAttack;
-            int playerDirection = (int)PlayerAttack;
-
-            if(enemyDirection%2 == 1) // odd direction
-            {
-                if(playerDirection == enemyDirection + 1) // opposite direction
-                {
-                    // successful parry
-                    Debug.Log("You successfully parried the attack");
-                }
-                else
-                {
-                    DamagePlayer();
-                }
-            }
-            else // even direction
-            {
-                if (playerDirection == enemyDirection - 1) // opposite direction
-                {
-                    // successful parry
-                    Debug.Log("You successfully parried the attack");
-                }
-                else
-                {
-                    DamagePlayer();
-                }
-            }
-
+            DamagePlayer();
         }
 
     }
