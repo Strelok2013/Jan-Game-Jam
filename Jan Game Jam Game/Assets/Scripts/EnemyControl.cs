@@ -35,7 +35,7 @@ public class EnemyControl : MonoBehaviour
     [Range(0, 10)]
     public float m_delayBetweenPatterns = 3;
 
-    private Vector2[] m_directions = {Vector2.up, Vector2.down, Vector2.left, Vector2.left, Vector2.right,
+    private Vector2[] m_directions = {Vector2.up, Vector2.down, Vector2.left, Vector2.right,
                                     new Vector2(-1, 1), new Vector2(1, 1), new Vector2(-1, -1), new Vector2(1, -1)};
 
     private Queue<Vector2> m_attackPattern = new Queue<Vector2>();    
@@ -51,7 +51,7 @@ public class EnemyControl : MonoBehaviour
     {
         health = m_maxHealth;
 
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
         CreateAttackPattern();
     }
 
@@ -63,17 +63,23 @@ public class EnemyControl : MonoBehaviour
 
     public void CreateAttackPattern()
     {
-        int numberOfAttacks = Random.Range(m_minAttacks, m_maxAttacks);
+        int numberOfAttacks = 2;// Random.Range(m_minAttacks, m_maxAttacks);
 
         Debug.Log("Generating a pattern of " + numberOfAttacks + " attacks");
 
+        /*
         for (int i = 0; i < numberOfAttacks; i++)// Generate enemy attack pattern???
         {
-            int direction = Random.Range(0, 8);
+            int direction = Random.Range(0, 7);
             m_attackPattern.Enqueue(m_directions[direction]);
 
             Debug.Log("Added " + DirectionString(m_directions[direction]) + " attack");
-        }
+        }*/
+        m_attackPattern.Enqueue(m_directions[0]);
+        m_attackPattern.Enqueue(m_directions[3]);
+
+        Debug.Log("Added " + DirectionString(m_directions[0]) + " attack");
+        Debug.Log("Added " + DirectionString(m_directions[3]) + " attack");
 
         Invoke("PerformAttack", m_delayBetweenPatterns);
     }
@@ -88,11 +94,20 @@ public class EnemyControl : MonoBehaviour
 
         //gameManager.EnemyAttack = direction;
 
+        animator.SetBool("Attacking", true);
         animator.SetInteger("Horizontal", (int)AttackDirection.x);
         animator.SetInteger("Vertical", (int)AttackDirection.y);
+    }
 
-        // Temporary. Will remove when animations have been added
-        gameManager.CompareAttacks();
+    public void HitPlayer()
+    {
+        gameManager.CompareAttacks();        
+    }
+
+    public void FinishAttack()
+    {
+        animator.SetInteger("Horizontal", 0);
+        animator.SetInteger("Vertical", 0);
 
         if (m_attackPattern.Count > 0)
             Invoke("PerformAttack", m_delayBetweenAttacks);
@@ -118,7 +133,7 @@ public class EnemyControl : MonoBehaviour
 
     private string DirectionString(Vector2 direction)
     {
-        if (direction.x > 0) // up pressed
+        if (direction.y > 0) // up pressed
         {
             if (direction.x > 0)
                 return "Up Left";

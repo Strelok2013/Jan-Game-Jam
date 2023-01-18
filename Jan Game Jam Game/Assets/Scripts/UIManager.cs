@@ -24,19 +24,19 @@ public class UIManager : MonoBehaviour
         for (int i = 0; i < 8; i++)
         {
             m_inactiveButtons[i] = arrowSet1.transform.GetChild(i).GetComponent<SpriteRenderer>();
-            Debug.Log("Adding in button " + arrowSet1.transform.GetChild(i).name + "from " + arrowSet1.name);
+            //Debug.Log("Adding in button " + arrowSet1.transform.GetChild(i).name + "from " + arrowSet1.name);
         }
 
         for (int i = 0; i < 8; i++)
         {
             m_incomingButtons[i] = arrowSet2.transform.GetChild(i).GetComponent<SpriteRenderer>();
-            Debug.Log("Adding in button " + arrowSet2.transform.GetChild(i).name + "from " + arrowSet2.name);
+            //Debug.Log("Adding in button " + arrowSet2.transform.GetChild(i).name + "from " + arrowSet2.name);
         }
         
         for (int i = 0; i < 8; i++)
         {
             m_activeButtons[i] = arrowSet3.transform.GetChild(i).GetComponent<SpriteRenderer>();
-            Debug.Log("Adding in button " + arrowSet3.transform.GetChild(i).name + "from " + arrowSet3.name);
+            //Debug.Log("Adding in button " + arrowSet3.transform.GetChild(i).name + "from " + arrowSet3.name);
         }
     }
 
