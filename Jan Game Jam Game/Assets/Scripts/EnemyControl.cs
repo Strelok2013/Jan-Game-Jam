@@ -4,7 +4,6 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Android;
 
-/*
 public enum AttackDir
 {
     none,
@@ -16,7 +15,7 @@ public enum AttackDir
     downLeft,
     upLeft,
     downRight    
-}*/
+}
 
 public class EnemyControl : MonoBehaviour
 {
