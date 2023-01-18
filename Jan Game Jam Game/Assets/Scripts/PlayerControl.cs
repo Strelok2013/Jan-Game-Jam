@@ -75,6 +75,7 @@ public class PlayerControl : MonoBehaviour
         {
             // some nonsense
             Debug.DrawRay(transform.position, transform.up, Color.red);
+            
         }
         else
         {
