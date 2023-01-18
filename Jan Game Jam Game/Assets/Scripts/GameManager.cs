@@ -42,6 +42,8 @@ public class GameManager : MonoBehaviour
     {
         if (!gameRunning)
             Time.timeScale = 0;
+
+        m_UIManagerRef.CheckForInputs(player.AttackDirection, enemy.AttackDirection);
     }
 
     public void AddPoints(int amount)
@@ -60,7 +62,7 @@ public class GameManager : MonoBehaviour
         // checks if attacks are opposites
         while(m_timer < m_reactionTime)
         {
-            m_UIManagerRef.CheckForInputs(player.AttackDirection, enemy.AttackDirection);
+            //m_UIManagerRef.CheckForInputs(player.AttackDirection, enemy.AttackDirection);
             m_timer += Time.deltaTime;
             if(player.AttackDirection == -enemy.AttackDirection)
             {
