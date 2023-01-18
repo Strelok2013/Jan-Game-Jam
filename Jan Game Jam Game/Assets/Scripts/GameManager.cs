@@ -24,10 +24,6 @@ public class GameManager : MonoBehaviour
     float m_timer = 0.0f;
     public float m_reactionTime = 1.0f;
 
-    // properties
-    //public AttackDir PlayerAttack { get; set; } = AttackDir.none;
-    //public AttackDir EnemyAttack { get; set; } = AttackDir.none;
-
     public int Score { get; private set; } = 0;
 
     private bool gameRunning = true;
