@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    // references
+    public PlayerControl player;
+    public EnemyControl enemy;
+
     // properties
     public AttackDir PlayerAttack { get; set; } = AttackDir.none;
     public AttackDir EnemyAttack { get; set; } = AttackDir.none;
 
     public int Score { get; private set; } = 0;
+
+    private bool gameRunning = true;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +25,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (!gameRunning)
+            Time.timeScale = 0;
     }
 
     public void AddPoints(int amount)
@@ -32,7 +39,7 @@ public class GameManager : MonoBehaviour
     {
         if(PlayerAttack == AttackDir.none)
         {
-            // damage player          
+            DamagePlayer();
         }
         else
         {
@@ -44,10 +51,11 @@ public class GameManager : MonoBehaviour
                 if(playerDirection == enemyDirection + 1) // opposite direction
                 {
                     // successful parry
+                    Debug.Log("You successfully parried the attack");
                 }
                 else
                 {
-                    // damage player
+                    DamagePlayer();
                 }
             }
             else // even direction
@@ -55,15 +63,30 @@ public class GameManager : MonoBehaviour
                 if (playerDirection == enemyDirection - 1) // opposite direction
                 {
                     // successful parry
+                    Debug.Log("You successfully parried the attack");
                 }
                 else
                 {
-                    // damage player
+                    DamagePlayer();
                 }
             }
 
         }
 
+    }
+
+    private void DamagePlayer()
+    {
+        player.m_playerhealth -= enemy.m_damagerPerAttack;
+
+        Debug.Log("Player takes " + enemy.m_damagerPerAttack + " damage. " +
+                  "Health Left: " + player.m_playerhealth);
+
+        if(player.m_playerhealth <= 0)
+        {
+            Debug.Log("Player has died. Game Over");
+            gameRunning = false;
+        }
     }
 
 }

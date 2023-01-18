@@ -235,6 +235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427058026b3b5654da986340d3a04320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1209578606}
+  enemy: {fileID: 1533289241}
 --- !u!4 &916465637
 Transform:
   m_ObjectHideFlags: 0
@@ -346,11 +348,11 @@ MonoBehaviour:
   gameManager: {fileID: 916465636}
   m_maxHealth: 50
   m_damagerPerAttack: 10
-  pointsWhenDestroyed: 1
-  minAttacks: 3
-  maxAttacks: 5
-  delayBetweenAttacks: 1
-  delayBetweenPatterns: 3
+  m_pointsWhenDestroyed: 1
+  m_minAttacks: 3
+  m_maxAttacks: 5
+  m_delayBetweenAttacks: 1
+  m_delayBetweenPatterns: 3
 --- !u!4 &1533289242
 Transform:
   m_ObjectHideFlags: 0

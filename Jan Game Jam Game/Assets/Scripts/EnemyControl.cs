@@ -60,17 +60,15 @@ public class EnemyControl : MonoBehaviour
     {
         int numberOfAttacks = Random.Range(m_minAttacks, m_maxAttacks);
 
-        Debug.Log("Generating a pattern of " + numberOfAttacks + " attacks");
+        //Debug.Log("Generating a pattern of " + numberOfAttacks + " attacks");
 
         for (int i = 0; i < numberOfAttacks; i++)// Generate enemy attack pattern???
         {
             int direction = Random.Range(1, 9);
             m_attackPattern.Enqueue((AttackDir)direction);
 
-            Debug.Log("Added " + (AttackDir)direction + " attack");
+            //Debug.Log("Added " + (AttackDir)direction + " attack");
         }
-
-        //Debug.Log("New Attack Pattern:" + m_attackPattern);
 
         Invoke("PerformAttack", m_delayBetweenPatterns);
     }
@@ -85,6 +83,9 @@ public class EnemyControl : MonoBehaviour
 
         gameManager.EnemyAttack = direction;
         animator.SetInteger("direction", (int)direction);
+
+        // Temporary. Will remove when animations have been added
+        gameManager.CompareAttacks();
 
         if (m_attackPattern.Count > 0)
             Invoke("PerformAttack", m_delayBetweenAttacks);
