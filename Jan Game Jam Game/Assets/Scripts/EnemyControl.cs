@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Android;
 
 public enum AttackDir
 {
@@ -34,12 +35,16 @@ public class EnemyControl : MonoBehaviour
     [Range(0, 10)]
     public float m_delayBetweenPatterns = 3;
 
-    private Queue<AttackDir> m_attackPattern = new Queue<AttackDir>();
+    private Vector2[] m_directions = {Vector2.up, Vector2.down, Vector2.left, Vector2.left, Vector2.right,
+                                    new Vector2(-1, 1), new Vector2(1, 1), new Vector2(-1, -1), new Vector2(1, -1)};
+
+    private Queue<Vector2> m_attackPattern = new Queue<Vector2>();    
 
     private Animator animator;
     private int health;
 
     public bool OutOfAttacks { get; private set; } = false;
+    public Vector2 AttackDirection { get; private set; }
 
     // Start is called before the first frame update
     void Start()
@@ -60,14 +65,14 @@ public class EnemyControl : MonoBehaviour
     {
         int numberOfAttacks = Random.Range(m_minAttacks, m_maxAttacks);
 
-        //Debug.Log("Generating a pattern of " + numberOfAttacks + " attacks");
+        Debug.Log("Generating a pattern of " + numberOfAttacks + " attacks");
 
         for (int i = 0; i < numberOfAttacks; i++)// Generate enemy attack pattern???
         {
-            int direction = Random.Range(1, 9);
-            m_attackPattern.Enqueue((AttackDir)direction);
+            int direction = Random.Range(0, 8);
+            m_attackPattern.Enqueue(m_directions[direction]);
 
-            //Debug.Log("Added " + (AttackDir)direction + " attack");
+            Debug.Log("Added " + DirectionString(m_directions[direction]) + " attack");
         }
 
         Invoke("PerformAttack", m_delayBetweenPatterns);
@@ -77,12 +82,14 @@ public class EnemyControl : MonoBehaviour
     {
         OutOfAttacks = false;
 
-        AttackDir direction = m_attackPattern.Dequeue();
+        AttackDirection = m_attackPattern.Dequeue();
 
-        Debug.Log("Enemy attacking in " + direction + " direction");
+        Debug.Log("Enemy attacking in " + DirectionString(AttackDirection) + " direction");
 
-        gameManager.EnemyAttack = direction;
-        animator.SetInteger("direction", (int)direction);
+        //gameManager.EnemyAttack = direction;
+
+        animator.SetInteger("Horizontal", (int)AttackDirection.x);
+        animator.SetInteger("Vertical", (int)AttackDirection.y);
 
         // Temporary. Will remove when animations have been added
         gameManager.CompareAttacks();
@@ -107,6 +114,35 @@ public class EnemyControl : MonoBehaviour
 
             GameObject.Destroy(this);
         }
+    }
+
+    private string DirectionString(Vector2 direction)
+    {
+        if (direction.x > 0) // up pressed
+        {
+            if (direction.x > 0)
+                return "Up Left";
+            else if (direction.x < 0)
+                return "Up Left";
+            else
+                return "Up";               
+            
+        }
+        else if (direction.y < 0) 
+        {
+            if (direction.x > 0)
+                return "Down Right";
+            else if (direction.x < 0)
+                return "Down Left";
+            else
+                return "Down";
+        }
+        else if (direction.x < 0)
+            return "Left";
+        else if (direction.x > 0)
+            return "Right";
+        else
+            return "Null";
     }
 
 }
