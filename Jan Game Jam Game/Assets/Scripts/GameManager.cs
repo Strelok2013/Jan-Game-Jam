@@ -21,10 +21,11 @@ public class GameManager : MonoBehaviour
     [Header("UI Objects")]
     public TextMeshProUGUI m_scoreText;
     public TextMeshProUGUI m_healthText;
+    public TextMeshProUGUI m_enemyHealthText;
     public GameObject m_parryDisplay;
     public TextMeshProUGUI m_pointIncreaseText;
     public GameObject m_GameOverMenu;
-    public GameObject m_WinMenu;
+    public GameObject m_WinMenu;    
 
     [Header("Scoring")]
     public int m_parryPoints = 5;
@@ -70,7 +71,6 @@ public class GameManager : MonoBehaviour
         else
             Time.timeScale = 1;
 
-
         m_UIManagerRef.CheckForInputs(player.AttackDirection, enemy.AttackDirection);
 
         if(enemy.OutOfAttacks)
@@ -90,6 +90,9 @@ public class GameManager : MonoBehaviour
                 player.m_isAttacking = false;
             }
         }
+
+        if(m_enemyHealthText)
+            m_enemyHealthText.text = enemy.health.ToString();
     }
 
     public void AddPoints(int amount)
