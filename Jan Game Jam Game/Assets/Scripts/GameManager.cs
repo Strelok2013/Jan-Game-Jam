@@ -18,15 +18,12 @@ public class GameManager : MonoBehaviour
     public UIManager m_UIManagerRef;
 
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI healthText;
 
     public int parryPoints = 5;
 
     float m_timer = 0.0f;
     public float m_reactionTime = 1.0f;
-
-    // properties
-    //public AttackDir PlayerAttack { get; set; } = AttackDir.none;
-    //public AttackDir EnemyAttack { get; set; } = AttackDir.none;
 
     public int Score { get; private set; } = 0;
 
@@ -39,6 +36,8 @@ public class GameManager : MonoBehaviour
             scoreText.text = Score.ToString();
         else
             Debug.Log("Score " + Score);
+
+        healthText.text = player.m_playerhealth.ToString();
     }
 
     // Update is called once per frame
@@ -46,6 +45,8 @@ public class GameManager : MonoBehaviour
     {
         if (!gameRunning)
             Time.timeScale = 0;
+
+        m_UIManagerRef.CheckForInputs(player.AttackDirection, enemy.AttackDirection);
     }
 
     public void AddPoints(int amount)
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour
         if (scoreText)
             scoreText.text = Score.ToString();
         else
-            Debug.Log("Score " + Score);
+            Debug.Log("Score " + Score);        
     }
 
     // Invoked from animation event
@@ -64,7 +65,7 @@ public class GameManager : MonoBehaviour
         // checks if attacks are opposites
         while(m_timer < m_reactionTime)
         {
-            m_UIManagerRef.CheckForInputs(player.AttackDirection, enemy.AttackDirection);
+            //m_UIManagerRef.CheckForInputs(player.AttackDirection, enemy.AttackDirection);
             m_timer += Time.deltaTime;
             if(player.AttackDirection == -enemy.AttackDirection)
             {
@@ -93,8 +94,10 @@ public class GameManager : MonoBehaviour
     {
         player.m_playerhealth -= enemy.m_damagerPerAttack;
 
-        Debug.Log("Player takes " + enemy.m_damagerPerAttack + " damage. " +
-                  "Health Left: " + player.m_playerhealth);
+        //Debug.Log("Player takes " + enemy.m_damagerPerAttack + " damage. " +
+                  //"Health Left: " + player.m_playerhealth);
+
+        healthText.text = player.m_playerhealth.ToString();
 
         if(player.m_playerhealth <= 0)
         {
