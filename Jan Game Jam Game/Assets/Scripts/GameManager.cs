@@ -12,16 +12,23 @@ public enum GameState
 
 public class GameManager : MonoBehaviour
 {
-    // references
+    [Header("Object References")]
     public PlayerControlTest player;
     public EnemyControl enemy;
     public UIManager m_UIManagerRef;
 
+    [Header("UI Objects")]
     public TextMeshProUGUI m_scoreText;
-    public TextMeshProUGUI healthText;
+    public TextMeshProUGUI m_healthText;
+    public GameObject m_parryDisplay;
+    public TextMeshProUGUI m_pointIncreaseText;
 
+    [Header("Scoring")]
     public int m_parryPoints = 5;
 
+    [Header("Timers")]
+    [Range(0f, 2f)]
+    public float parryTextDisplayTime = 1;
     float m_timer = 0.0f;
     public float m_reactionTime = 1.0f;
 
@@ -46,7 +53,9 @@ public class GameManager : MonoBehaviour
         else
             Debug.Log("Score " + Score);
 
-        healthText.text = player.m_playerhealth.ToString();
+        m_healthText.text = player.m_playerhealth.ToString();
+
+        m_parryDisplay.SetActive(false);
     }
 
     // Update is called once per frame
@@ -78,10 +87,10 @@ public class GameManager : MonoBehaviour
             m_timer += Time.deltaTime;
             if(player.AttackDirection == -enemy.AttackDirection)
             {
-                // successful parry                    
                 Debug.Log("You successfully parried the attack");
-                AddPoints(m_parryPoints);
-                m_audio.PlayOneShot(m_parrySound);
+
+                // successful parry
+                StartCoroutine(Parry());
 
                 m_timer = 0.0f;
                 break;
@@ -108,7 +117,7 @@ public class GameManager : MonoBehaviour
         //Debug.Log("Player takes " + enemy.m_damagerPerAttack + " damage. " +
                   //"Health Left: " + player.m_playerhealth);
 
-        healthText.text = player.m_playerhealth.ToString();
+        m_healthText.text = player.m_playerhealth.ToString();
 
         m_audio.PlayOneShot(m_hitSound);
 
@@ -122,6 +131,19 @@ public class GameManager : MonoBehaviour
     public void PlaySwingSound()
     {
         m_audio.PlayOneShot(m_swingSound);
+    }
+
+    private IEnumerator Parry()
+    {
+        AddPoints(m_parryPoints);
+        m_audio.PlayOneShot(m_parrySound);
+
+        m_parryDisplay.SetActive(true);
+        m_pointIncreaseText.text = "+ " + m_parryPoints;
+
+        yield return new WaitForSeconds(parryTextDisplayTime);
+
+        m_parryDisplay.SetActive(false);
     }
 
 }
