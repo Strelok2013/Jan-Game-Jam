@@ -89,7 +89,9 @@ public class EnemyControl : MonoBehaviour
         AttackDirection = m_attackPattern.Dequeue();
 
         Debug.Log("Enemy attacking in " + DirectionString(AttackDirection) + " direction");
-        
+
+        gameManager.PlaySwingSound();
+
         animator.SetInteger("Horizontal", (int)AttackDirection.x);
         animator.SetInteger("Vertical", (int)AttackDirection.y);
     }

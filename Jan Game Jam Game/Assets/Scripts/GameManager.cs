@@ -17,23 +17,32 @@ public class GameManager : MonoBehaviour
     public EnemyControl enemy;
     public UIManager m_UIManagerRef;
 
-    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI m_scoreText;
     public TextMeshProUGUI healthText;
 
-    public int parryPoints = 5;
+    public int m_parryPoints = 5;
 
     float m_timer = 0.0f;
     public float m_reactionTime = 1.0f;
+
+    [Header("Sound Effects")]
+    public AudioClip m_swingSound;
+    public AudioClip m_parrySound;
+    public AudioClip m_hitSound;
 
     public int Score { get; private set; } = 0;
 
     private bool gameRunning = true;
 
+    private AudioSource m_audio;
+
     // Start is called before the first frame update
     void Start()
     {
-        if (scoreText)
-            scoreText.text = Score.ToString();
+        m_audio = GetComponent<AudioSource>();
+
+        if (m_scoreText)
+            m_scoreText.text = Score.ToString();
         else
             Debug.Log("Score " + Score);
 
@@ -53,8 +62,8 @@ public class GameManager : MonoBehaviour
     {
         Score += amount;
 
-        if (scoreText)
-            scoreText.text = Score.ToString();
+        if (m_scoreText)
+            m_scoreText.text = Score.ToString();
         else
             Debug.Log("Score " + Score);        
     }
@@ -71,7 +80,9 @@ public class GameManager : MonoBehaviour
             {
                 // successful parry                    
                 Debug.Log("You successfully parried the attack");
-                AddPoints(parryPoints);
+                AddPoints(m_parryPoints);
+                m_audio.PlayOneShot(m_parrySound);
+
                 m_timer = 0.0f;
                 break;
             }
@@ -99,11 +110,18 @@ public class GameManager : MonoBehaviour
 
         healthText.text = player.m_playerhealth.ToString();
 
+        m_audio.PlayOneShot(m_hitSound);
+
         if(player.m_playerhealth <= 0)
         {
             Debug.Log("Player has died. Game Over");
             gameRunning = false;
         }
+    }
+
+    public void PlaySwingSound()
+    {
+        m_audio.PlayOneShot(m_swingSound);
     }
 
 }
