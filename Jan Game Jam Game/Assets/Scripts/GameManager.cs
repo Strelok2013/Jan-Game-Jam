@@ -66,6 +66,19 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0;
 
         m_UIManagerRef.CheckForInputs(player.AttackDirection, enemy.AttackDirection);
+
+        if(enemy.OutOfAttacks)
+        {
+            if(!player.m_isAttacking && player.AttackDirection != Vector2.zero)
+            {
+                enemy.TakeDamage(5);
+                player.m_isAttacking = true;
+            }
+            else if (player.m_isAttacking && player.AttackDirection == Vector2.zero) 
+            {
+                player.m_isAttacking = false;
+            }
+        }
     }
 
     public void AddPoints(int amount)

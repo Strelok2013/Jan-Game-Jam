@@ -9,6 +9,7 @@ public class PlayerControlTest : MonoBehaviour
     float vInput, hInput;    
 
     public Vector2 AttackDirection { get; private set; } = Vector2.zero;
+    public bool m_isAttacking = false;
 
     // Start is called before the first frame update
     void Start()
