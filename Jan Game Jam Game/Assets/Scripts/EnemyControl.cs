@@ -30,6 +30,8 @@ public class EnemyControl : MonoBehaviour
     public int m_maxAttacks = 5;
 
     [Header("Time Delays")]
+    [Range(0, 2)]
+    public float m_AttackSpeed = 0.5f;
     [Range(0, 10)]
     public float m_delayBetweenAttacks = 1;
     [Range(0, 10)]
@@ -52,6 +54,8 @@ public class EnemyControl : MonoBehaviour
         health = m_maxHealth;
 
         animator = GetComponentInChildren<Animator>();
+        animator.speed = m_AttackSpeed;
+
         CreateAttackPattern();
     }
 
@@ -63,7 +67,7 @@ public class EnemyControl : MonoBehaviour
 
     public void CreateAttackPattern()
     {
-        int numberOfAttacks = 2;// Random.Range(m_minAttacks, m_maxAttacks);
+        int numberOfAttacks = Random.Range(m_minAttacks, m_maxAttacks);
 
         Debug.Log("Generating a pattern of " + numberOfAttacks + " attacks");
         
@@ -75,9 +79,6 @@ public class EnemyControl : MonoBehaviour
             Debug.Log("Added " + DirectionString(m_directions[direction]) + " attack");
         }
 
-        Debug.Log("Added " + DirectionString(m_directions[0]) + " attack");
-        Debug.Log("Added " + DirectionString(m_directions[3]) + " attack");
-
         Invoke("PerformAttack", m_delayBetweenPatterns);
     }
 
@@ -88,8 +89,7 @@ public class EnemyControl : MonoBehaviour
         AttackDirection = m_attackPattern.Dequeue();
 
         Debug.Log("Enemy attacking in " + DirectionString(AttackDirection) + " direction");
-
-        animator.SetBool("Attacking", true);
+        
         animator.SetInteger("Horizontal", (int)AttackDirection.x);
         animator.SetInteger("Vertical", (int)AttackDirection.y);
     }
@@ -131,7 +131,7 @@ public class EnemyControl : MonoBehaviour
         if (direction.y > 0) // up pressed
         {
             if (direction.x > 0)
-                return "Up Left";
+                return "Up Right";
             else if (direction.x < 0)
                 return "Up Left";
             else

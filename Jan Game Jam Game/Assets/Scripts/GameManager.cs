@@ -74,14 +74,14 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                //DamagePlayer();
+                DamagePlayer();
                 m_timer = 0.0f;
                 break;
             }
         }
         if(m_timer > m_reactionTime)
         {
-            //DamagePlayer();
+            DamagePlayer();
             m_timer = 0.0f;
         }
 
