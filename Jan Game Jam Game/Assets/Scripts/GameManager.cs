@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI m_healthText;
     public GameObject m_parryDisplay;
     public TextMeshProUGUI m_pointIncreaseText;
+    public GameObject m_GameOverMenu;
+    public GameObject m_WinMenu;
 
     [Header("Scoring")]
     public int m_parryPoints = 5;
@@ -47,6 +49,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameRunning = true;
         m_audio = GetComponent<AudioSource>();
 
         if (m_scoreText)
@@ -64,6 +67,9 @@ public class GameManager : MonoBehaviour
     {
         if (!gameRunning)
             Time.timeScale = 0;
+        else
+            Time.timeScale = 1;
+
 
         m_UIManagerRef.CheckForInputs(player.AttackDirection, enemy.AttackDirection);
 
@@ -71,7 +77,12 @@ public class GameManager : MonoBehaviour
         {
             if(!player.m_isAttacking && player.AttackDirection != Vector2.zero)
             {
-                enemy.TakeDamage(5);
+                enemy.TakeDamage(2);
+                if (enemy.health <= 0)
+                {
+                    gameRunning = false;
+                    m_WinMenu.SetActive(true);
+                }
                 player.m_isAttacking = true;
             }
             else if (player.m_isAttacking && player.AttackDirection == Vector2.zero) 
@@ -139,6 +150,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Player has died. Game Over");
             gameRunning = false;
+            m_GameOverMenu.SetActive(true);
         }
     }
 
@@ -158,6 +170,10 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(parryTextDisplayTime);
 
         m_parryDisplay.SetActive(false);
+
+
+
+
     }
 
 }

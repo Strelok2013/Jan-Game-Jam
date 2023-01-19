@@ -43,7 +43,7 @@ public class EnemyControl : MonoBehaviour
     private Queue<Vector2> m_attackPattern = new Queue<Vector2>();    
 
     private Animator animator;
-    private int health;
+    public int health;
 
     public bool OutOfAttacks { get; private set; } = false;
     public Vector2 AttackDirection { get; private set; }
