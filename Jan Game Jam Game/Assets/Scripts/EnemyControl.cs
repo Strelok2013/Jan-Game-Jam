@@ -76,7 +76,7 @@ public class EnemyControl : MonoBehaviour
             int direction = Random.Range(0, 7);
             m_attackPattern.Enqueue(m_directions[direction]);
 
-            Debug.Log("Added " + DirectionString(m_directions[direction]) + " attack");
+            //Debug.Log("Added " + DirectionString(m_directions[direction]) + " attack");
         }
 
         Invoke("PerformAttack", m_delayBetweenPatterns);

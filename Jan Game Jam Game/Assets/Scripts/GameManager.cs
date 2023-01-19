@@ -10,6 +10,7 @@ public enum GameState
     lose
 }
 
+[RequireComponent(typeof(AudioSource))]
 public class GameManager : MonoBehaviour
 {
     [Header("Object References")]
