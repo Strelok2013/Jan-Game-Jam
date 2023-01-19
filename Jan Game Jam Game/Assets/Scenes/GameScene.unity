@@ -281,7 +281,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1209578609}
-  - component: {fileID: 1209578606}
   - component: {fileID: 1209578608}
   - component: {fileID: 1209578607}
   m_Layer: 0
@@ -291,20 +290,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1209578606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209578605}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa1ded3dbacc1be46bf8841e4a322263, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_reactionTime: 1
-  m_playerhealth: 30
 --- !u!222 &1209578607
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -564,13 +549,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2137969910096113388, guid: f458b37a54ba15b4bb71feeec0dacc38, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2262709607601147089, guid: f458b37a54ba15b4bb71feeec0dacc38, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2477713838633491475, guid: f458b37a54ba15b4bb71feeec0dacc38, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -196
+      value: 62.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3026051088004790770, guid: f458b37a54ba15b4bb71feeec0dacc38, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3792300733683927733, guid: f458b37a54ba15b4bb71feeec0dacc38, type: 3}
       propertyPath: m_Enabled
@@ -594,7 +587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4567383788031379120, guid: f458b37a54ba15b4bb71feeec0dacc38, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -196
+      value: 62.75
       objectReference: {fileID: 0}
     - target: {fileID: 4892802542109487092, guid: f458b37a54ba15b4bb71feeec0dacc38, type: 3}
       propertyPath: m_Pivot.x
@@ -682,7 +675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5936058230356356276, guid: f458b37a54ba15b4bb71feeec0dacc38, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -196
+      value: 62.75
       objectReference: {fileID: 0}
     - target: {fileID: 6699165201397625810, guid: f458b37a54ba15b4bb71feeec0dacc38, type: 3}
       propertyPath: m_Camera

@@ -111,6 +111,8 @@ public class EnemyControl : MonoBehaviour
             OutOfAttacks = true;
             CreateAttackPattern();
         }
+
+        AttackDirection = Vector2.zero;
     }
 
     public void TakeDamage(int amount)

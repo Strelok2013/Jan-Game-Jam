@@ -66,6 +66,11 @@ public class PlayerControlTest : MonoBehaviour
             AttackDirection = Vector2.right;
         }
 
+        if(vInput == 0 && hInput == 0)
+        {
+            AttackDirection = Vector2.zero;
+        }
+
         if (AttackDirection != Vector2.zero)
             Debug.DrawRay(transform.position, AttackDirection, Color.red);
     }

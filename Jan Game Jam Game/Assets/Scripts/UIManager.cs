@@ -1,192 +1,277 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    SpriteRenderer[] m_inactiveButtons = new SpriteRenderer[8];
-    SpriteRenderer[] m_incomingButtons = new SpriteRenderer[8];
-    SpriteRenderer[] m_activeButtons = new SpriteRenderer[8];
+    //SpriteRenderer[] m_inactiveButtons = new SpriteRenderer[8];
+    //SpriteRenderer[] m_incomingButtons = new SpriteRenderer[8];
+    //SpriteRenderer[] m_activeButtons = new SpriteRenderer[8];
 
-    public PlayerControlTest m_playerRef;
+    public Sprite[] m_inactiveButtons = new Sprite[8];
+    public Sprite[] m_incomingButtons = new Sprite[8];
+    public Sprite[] m_activeButtons = new Sprite[8];
 
-    private void Awake()
-    {
+    Image[] m_displayImages = new Image[8];
 
-    }
 
-    // Start is called before the first frame update
     void Start()
     {
-        GameObject arrowSet1 = transform.GetChild(0).gameObject;
-        GameObject arrowSet2 = transform.GetChild(1).gameObject;
-        GameObject arrowSet3 = transform.GetChild(2).gameObject;
-        for (int i = 0; i < 8; i++)
-        {
-            m_inactiveButtons[i] = arrowSet1.transform.GetChild(i).GetComponent<SpriteRenderer>();
-            //Debug.Log("Adding in button " + arrowSet1.transform.GetChild(i).name + "from " + arrowSet1.name);
-        }
+        RectTransform buttons = transform.GetChild(0).GetComponent<RectTransform>();
 
         for (int i = 0; i < 8; i++)
         {
-            m_incomingButtons[i] = arrowSet2.transform.GetChild(i).GetComponent<SpriteRenderer>();
-            //Debug.Log("Adding in button " + arrowSet2.transform.GetChild(i).name + "from " + arrowSet2.name);
+            m_displayImages[i] = buttons.GetChild(i).GetComponent<Image>();
         }
-        
-        for (int i = 0; i < 8; i++)
-        {
-            m_activeButtons[i] = arrowSet3.transform.GetChild(i).GetComponent<SpriteRenderer>();
-            //Debug.Log("Adding in button " + arrowSet3.transform.GetChild(i).name + "from " + arrowSet3.name);
-        }
+        //Debug.Log("Successfully pulled all images into the array");
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //if(m_playerRef.)
+
     }
 
+    void FixedUpdate()
+    {
+        
+    }
 
     public void CheckForInputs(Vector2 playerAttack, Vector2 enemyAttack)
     {
-        //Temp vecs??
-        Vector2 upLeft = new Vector2(-1,1);
+        Vector2 upLeft = new Vector2(-1, 1);
         Vector2 upRight = new Vector2(1, 1);
-        Vector2 downLeft = new Vector2(-1, -1);
-        Vector2 downRight = new Vector2(1, -1);
+        Vector2 bottomLeft = new Vector2(-1, -1);
+        Vector2 bottomRight = new Vector2(1, -1);
 
+        // Enemy attacks
+        //if(enemyAttack != Vector2.zero)
+        //{
+        //}
+        //else
+        //{
+        //      m_displayImages[0].sprite = m_inactiveButtons[0];
+        //}
 
-        // Player input
-        if(playerAttack == Vector2.up)
+        // Player attacks
+
+        if (playerAttack == bottomRight) //1
         {
-            m_activeButtons[1].enabled = true;
+             m_displayImages[7].sprite = m_activeButtons[7];
         }
-        else
+        else if (enemyAttack == upLeft)
         {
-            m_activeButtons[1].enabled = false;
+              m_displayImages[7].sprite = m_incomingButtons[7];
         }
-        if (playerAttack == upLeft)
+
+        if(playerAttack == Vector2.down) //2
         {
-            m_activeButtons[0].enabled = true;
+            m_displayImages[6].sprite = m_activeButtons[6];
         }
-        else
+        else if(enemyAttack == Vector2.up)
         {
-            m_activeButtons[0].enabled = false;
+            m_displayImages[6].sprite = m_incomingButtons[6];
         }
+
+        if(playerAttack == bottomLeft)
+        {
+            m_displayImages[5].sprite = m_activeButtons[5];
+        }
+        else if(enemyAttack == upRight)
+        {
+            m_displayImages[5].sprite = m_incomingButtons[5];
+        }
+
+        if(playerAttack == Vector2.right)
+        {
+            m_displayImages[4].sprite = m_activeButtons[4];
+        }
+        else if (enemyAttack == Vector2.left)
+        {
+            m_displayImages[4].sprite = m_incomingButtons[4];
+        }
+
+        if(playerAttack == Vector2.left)
+        {
+            m_displayImages[3].sprite = m_activeButtons[3];
+        }
+        else if(enemyAttack == Vector2.right)
+        {
+            m_displayImages[3].sprite = m_incomingButtons[3];
+        }
+
         if(playerAttack == upRight)
         {
-            m_activeButtons[2].enabled = true;
+            m_displayImages[2].sprite = m_activeButtons[2];
         }
-        else
+        else if(enemyAttack == bottomLeft)
         {
-            m_activeButtons[2].enabled = false;
-        }
-        if (playerAttack == Vector2.left)
-        {
-            m_activeButtons[3].enabled = true;
-        }
-        else
-        {
-            m_activeButtons[3].enabled = false;
-        }
-        if (playerAttack == Vector2.down)
-        {
-            m_activeButtons[6].enabled = true;
-        }
-        else
-        {
-            m_activeButtons[6].enabled = false;
-        }
-        if (playerAttack == downLeft)
-        {
-            m_activeButtons[5].enabled = true;
-        }
-        else
-        {
-            m_activeButtons[5].enabled = false;
-        }
-        if (playerAttack == downRight)
-        {
-            m_activeButtons[7].enabled = true;
-        }
-        else
-        {
-            m_activeButtons[7].enabled = false;
-        }
-        if (playerAttack == Vector2.right)
-        {
-            m_activeButtons[4].enabled = true;
-        }
-        else
-        {
-            m_activeButtons[4].enabled = false;
+            m_displayImages[2].sprite = m_incomingButtons[2];
         }
 
-        // Enemy Input
-        if (enemyAttack == Vector2.up)
+        if(playerAttack == Vector2.up)
         {
-            m_incomingButtons[6].enabled = true;
+            m_displayImages[1].sprite = m_activeButtons[1];
         }
-        else
+        else if (enemyAttack == Vector2.down)
         {
-            m_incomingButtons[6].enabled = false;
+            m_displayImages[1].sprite = m_incomingButtons[1];
         }
-        if(enemyAttack == upLeft)
+
+        if(playerAttack == upLeft)
         {
-            m_incomingButtons[7].enabled = true;
+            m_displayImages[0].sprite = m_activeButtons[0];
         }
-        else
+        else if(enemyAttack == bottomRight)
         {
-            m_incomingButtons[6].enabled = false;
+            m_displayImages[0].sprite = m_incomingButtons[0];
         }
-        if (enemyAttack == upRight)
+
+        // Turn off for all the arrows
+        if (playerAttack != upLeft && enemyAttack != bottomRight)
         {
-            m_incomingButtons[5].enabled = true;
+
+            m_displayImages[0].sprite = m_inactiveButtons[0];
         }
-        else
+
+        if (playerAttack != Vector2.up && enemyAttack != Vector2.down)
         {
-            m_incomingButtons[6].enabled = false;
+
+            m_displayImages[1].sprite = m_inactiveButtons[1];
         }
-        if (enemyAttack == Vector2.left)
+        if (playerAttack != upRight && enemyAttack != bottomLeft)
         {
-            m_incomingButtons[4].enabled = true;
+
+            m_displayImages[2].sprite = m_inactiveButtons[2];
         }
-        else
+        if (playerAttack != Vector2.left && enemyAttack != Vector2.right)
         {
-            m_incomingButtons[6].enabled = false;
+
+            m_displayImages[3].sprite = m_inactiveButtons[3];
         }
-        if (enemyAttack == Vector2.down)
+        if (playerAttack != Vector2.right && enemyAttack != Vector2.left)
         {
-            m_incomingButtons[1].enabled = true;
+
+            m_displayImages[4].sprite = m_inactiveButtons[4];
         }
-        else
+        if (playerAttack != bottomLeft && enemyAttack != upRight)
         {
-            m_incomingButtons[6].enabled = false;
+
+            m_displayImages[5].sprite = m_inactiveButtons[5];
         }
-        if (enemyAttack == downLeft)
+        if (playerAttack != Vector2.down && enemyAttack != Vector2.up)
         {
-            m_incomingButtons[2].enabled = true;
+
+            m_displayImages[6].sprite = m_inactiveButtons[6];
         }
-        else
+        if (playerAttack != bottomRight && enemyAttack != upLeft)
         {
-            m_incomingButtons[6].enabled = false;
+
+            m_displayImages[7].sprite = m_inactiveButtons[7];
         }
-        if (enemyAttack == downRight)
-        {
-            m_incomingButtons[0].enabled = true;
-        }
-        else
-        {
-            m_incomingButtons[6].enabled = false;
-        }
-        if (enemyAttack == Vector2.right)
-        {
-            m_incomingButtons[3].enabled = true;
-        }
-        else
-        {
-            m_incomingButtons[6].enabled = false;
-        }
+        //if(playerAttack == Vector2.up) //2
+        //{
+        //      m_displayImages[1].sprite = m_activeButtons[1];
+        //}
+        //else if(enemyAttack == Vector2.up)
+        //{
+        //      m_displayImages[6].sprite = m_inactiveButtons[6];
+        //}
+        //else
+        //{
+        //    m_displayImages[1].sprite = m_inactiveButtons[1];
+        //    m_displayImages[6].sprite = m_inactiveButtons[6];
+        //}
+        //
+        //if (playerAttack == upRight) //3
+        //{
+        //    m_displayImages[2].sprite = m_activeButtons[2];
+        //}
+        //else if (enemyAttack == upRight)
+        //{
+        //    m_displayImages[5].sprite = m_inactiveButtons[5];
+        //}
+        //else
+        //{
+        //    m_displayImages[2].sprite = m_inactiveButtons[2];
+        //    m_displayImages[5].sprite = m_inactiveButtons[5];
+        //}
+        //
+        //if (playerAttack == Vector2.left)
+        //{
+        //    m_displayImages[3].sprite = m_activeButtons[3];
+        //}
+        //else if (enemyAttack == Vector2.left)
+        //{
+        //    m_displayImages[4].sprite = m_inactiveButtons[4];
+        //}
+        //else
+        //{
+        //    m_displayImages[3].sprite = m_inactiveButtons[3];
+        //    m_displayImages[4].sprite = m_inactiveButtons[4];
+        //}
+        //
+        //if (playerAttack == Vector2.right)
+        //{
+        //    m_displayImages[4].sprite = m_activeButtons[4];
+        //}
+        //else if (enemyAttack == Vector2.right)
+        //{
+        //    m_displayImages[3].sprite = m_inactiveButtons[3];
+        //}
+        //else
+        //{
+        //    m_displayImages[4].sprite = m_inactiveButtons[4];
+        //    m_displayImages[3].sprite = m_inactiveButtons[3];
+        //}
+        //
+        //if (playerAttack == bottomLeft)
+        //{
+        //    m_displayImages[5].sprite = m_activeButtons[5];
+        //}
+        //else if (enemyAttack == bottomLeft)
+        //{
+        //    m_displayImages[2].sprite = m_inactiveButtons[2];
+        //}
+        //else
+        //{
+        //    m_displayImages[5].sprite = m_inactiveButtons[5];
+        //    m_displayImages[2].sprite = m_inactiveButtons[2];
+        //}
+        //
+        //if (playerAttack == Vector2.down)
+        //{
+        //    m_displayImages[6].sprite = m_activeButtons[6];
+        //}
+        //else if (enemyAttack == Vector2.down)
+        //{
+        //    m_displayImages[1].sprite = m_inactiveButtons[1];
+        //}
+        //else
+        //{
+        //    m_displayImages[6].sprite = m_inactiveButtons[6];
+        //    m_displayImages[1].sprite = m_inactiveButtons[1];
+        //}
+        //
+        //if (playerAttack == bottomRight)
+        //{
+        //    m_displayImages[7].sprite = m_activeButtons[7];
+        //}
+        //else if (enemyAttack == bottomRight)
+        //{
+        //    m_displayImages[0].sprite = m_inactiveButtons[0];
+        //}
+        //else
+        //{
+        //    m_displayImages[7].sprite = m_inactiveButtons[7];
+        //    m_displayImages[0].sprite = m_inactiveButtons[0];
+        //}
+
+
+
     }
 
 }
+
+
+

@@ -61,11 +61,10 @@ public class GameManager : MonoBehaviour
 
     // Invoked from animation event
     public void CompareAttacks()
-    {
+    {     
         // checks if attacks are opposites
         while(m_timer < m_reactionTime)
         {
-            //m_UIManagerRef.CheckForInputs(player.AttackDirection, enemy.AttackDirection);
             m_timer += Time.deltaTime;
             if(player.AttackDirection == -enemy.AttackDirection)
             {
@@ -89,6 +88,7 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
 
     private void DamagePlayer()
     {
