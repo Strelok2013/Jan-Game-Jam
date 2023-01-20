@@ -1477,7 +1477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 916465636}
-  m_maxHealth: 500
+  m_maxHealth: 200
   m_damagerPerAttack: 10
   m_pointsWhenDestroyed: 1
   m_minAttacks: 3
